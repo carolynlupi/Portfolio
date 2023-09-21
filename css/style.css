@@ -47,6 +47,13 @@ svg text {
   }
 }
 
+.aside {
+  flex: 1; 
+  padding: 20px; 
+  color: black;
+  background-color: lightgray; 
+}
+
 
 .topnav {
   display: flex;
