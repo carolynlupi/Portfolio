@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carolyn's Portfolio</title>
   <link rel="stylesheet" href="./css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
 </head>
-<!--Navigation Section-->
 
+<!--Navigation Section-->
 <body class="default">
   <header>
     <div class="topnav">
@@ -25,81 +27,178 @@
       </a>
     </div>
   </header>
-  <!--Header of Site-->
-  <svg viewBox="0 0 1320 300">
-    <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-      Hi, I'm Carolyn Lupi
-    </text>
-  </svg>
-  <h1 class="header">
-    <img class="sparkle-img" src="./assets/images/sparkle.svg" alt="sparkle" /></img>
-  </h1>
-  <!--Introduction Section-->
-  <div class="about-container">
-    <div id="introduction" class="box1">
-      <h1 class="box1-aboutme">Introduction</h1>
-      <p class="box1-aboutme">Hi, my name is Carolyn Lupi. I am a dedicated student currently pursuing my passion for becoming a full stack programmer at the esteemed University of Miami. Embarking on this exciting journey into the world of programming fills me with enthusiasm and determination. Outside of coding, I find joy in painting and going to the beach. </p>
-      <p class="box1-aboutme">I am thrilled to embrace the challenges and opportunities that lie ahead in my programming career.</p>
-    </div>
-  </div>
- <!--Contact Section-->
- <div class="aside">
-<div class="body-container">
-  <div class="box2">
-    <div class="box2-img"
-      src="https://www.zdnet.com/a/img/resize/a0dcec40a8cd8d2e1b3a9e12a05c2819622d20be/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=1200&width=1200"></div>
-  <div id="contact" class="contact">
-    <h2 class="contact-section">Contact:</h2>
-    <p class="contact-section">Email: Karolynlupi@gmail.com</p>
-    <p class="contact-section">Phone: +123-456-7890</p>
-  </div>
-</div>
-</div>
 
-  <!--Projects Section-->
-  <h2 class="project-header">Current Projects</h2>
-  <div class="carousel-section">
-    <div class="carousel-item active">
-      <div class="container">
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-item active">
-            <img class="carousel-img" src="assets/images/Password Generator.png" alt="Password Generator">
-          </div>
-          <div class="carousel-item">
-            <img class="carousel-img" src="assets/images/Code Refactor.png" alt="Code Refactor">
-          </div>
-          <div class="carousel-item">
-            <img class="carousel-img" src="assets/images/Portfolio.png" alt="Carolyn's Portfolio">
+ <!--Header of Site-->
+<svg width="100%" height="40%" viewBox="0 0 1320 300">
+  <text x="50%" y="50%" dy=".35em" text-anchor="middle" font-size="50">
+    Hi, I'm Carolyn Lupi
+  </text>
+</svg>
+
+  <!--Introduction Section-->
+  <body>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Hi, my name is Carolyn Lupi. I am a dedicated student currently pursuing my passion for becoming a full
+            stack programmer at the esteemed University of Miami. Embarking on this exciting journey into the world of
+            programming fills me with enthusiasm and determination. Outside of coding, I find joy in painting and going
+            to the beach.
+          </span>
+        </h2>
+        <!--Skills Section-->
+          <div class="about__content-skills">
+            <h3 class="heading-sec__main">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Shopify</div>
+              <div class="skills__skill">Wordpress</div>
+              <div class="skills__skill">Google ADS</div>
+              <div class="skills__skill">Facebook Ads</div>
+              <div class="skills__skill">Android</div>
+              <div class="skills__skill">IOS</div>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-  </div>
+    </section>
 
+    <!--Project Section-->
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span>
+        </h2>
 
-  <!--Bootstrap Javascript Add In-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-</body>
-<!--Footer Section-->
-<footer class="site-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <h6>Carolyn Lupi's Portfolio</h6>
-        <p class="text-footer">This page is showing all current learned projects <br> that Carolyn has worked on so far
-          while in the coding bootcamp from the University of Miami. <br> All matter is subject to change.</p>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <!--image here-->
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 1</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+               <!--image here-->
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 2</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a href="./project-2.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+                <!--image here-->
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 3</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-6 col-md-3"></div>
-</footer>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name"
+                id="name" />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input required placeholder="Enter Your Email" type="text" class="contact__form-input" name="email"
+                id="email" />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message"
+                name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--Footer Section-->
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Contacts</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="icon" />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Carolyn Lupi</h4>
+            <p class="main-footer__short-desc">
+              This is a showcase of Carolyn Lupi's work so far.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+    <!--Bootstrap Javascript Add In-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+  </body>
 
 </html>
