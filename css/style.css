@@ -236,7 +236,7 @@ svg text {
 
 /* about section */
 .about {
-  background: #fafafa; }
+  background: #ecf8ff; }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -244,7 +244,8 @@ svg text {
     @media only screen and (max-width: 56.25em) {
       .about__content {
         grid-template-columns: 1fr;
-        grid-gap: 8rem; } }
+        grid-gap: 8rem; 
+        } }
     .about__content-title {
       font-weight: 700;
       font-size: 2.8rem;
@@ -314,15 +315,15 @@ svg text {
 
 /* contact section */
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(74, 165, 245, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: white;
-    padding: 4rem;
-    margin-top: 6rem;
-    max-width: 80rem;
+    padding: 3rem;
+    margin-top: 4rem;
+    max-width: 70rem;
     text-align: right;
     width: 95%;
     border-radius: 5px;
@@ -434,15 +435,15 @@ svg text {
         font-size: 2.4rem; } }
 
 .project-details__showcase-img-cont {
-  width: 100%;
-  margin-bottom: 6rem; }
+  width: 60%;
+  margin-bottom: 2rem; }
 
 .project-details__showcase-img {
-  width: 100%; }
+  width: 80%; }
 
 .project-details__content-main {
   width: 100%;
-  max-width: 70rem;
+  max-width: 60rem;
   margin: auto; }
 
 .project-details__desc {
@@ -654,7 +655,9 @@ svg text {
 /* skills section */
 .skills {
   display: flex;
-  flex-wrap: wrap; }
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 3rem; }
   .skills__skill {
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
@@ -664,3 +667,11 @@ svg text {
     border-radius: 5px;
     font-weight: 600;
     color: #777; }
+
+    .html-img {
+        width: 600px;
+        height: auto; 
+        margin: 10px;
+        padding: 10px;
+      }
+      
