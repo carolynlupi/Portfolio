@@ -16,10 +16,10 @@
 <body class="default">
   <header>
     <div class="topnav">
-      <a href="#introduction">
+      <a href="#about">
         <li>Introduction</li>
       </a>
-      <a href="#carouselExample">
+      <a href="#projects">
         <li>Projects</li>
       </a>
       <a href="#contact">
@@ -29,11 +29,13 @@
   </header>
 
  <!--Header of Site-->
+ <div class="header-box">
 <svg width="100%" height="40%" viewBox="0 0 1320 300">
   <text x="50%" y="50%" dy=".35em" text-anchor="middle" font-size="50">
     Hi, I'm Carolyn Lupi
   </text>
 </svg>
+</div>
 
   <!--Introduction Section-->
   <body>
@@ -76,52 +78,48 @@
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Here is a small insight on some of the projects I've previously worked on.
           </span>
         </h2>
 
         <div class="projects__content">
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <!--image here-->
+              <div class="projects__row-img-cont">
+                <img
+                  src="./assets/images/TechBlog1.png"
+                  alt="Tech Blog Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1</h3>
+              <h3 class="projects__row-content-title">Tech Blog</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                This full-stack application allows users to create and engage with tech-related content via a dashboard. It employs user authentication, MVC architecture, Sequelize ORM, and handlebars templating, while overcoming challenges in handling handlebars and routing in this first full-stack web application.
               </p>
               <a href="./views/project-1.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Link</a>
             </div>
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
-               <!--image here-->
+              <div class="projects__row-img-cont">
+                <img
+                  src="./assets/images/TextEditor1.png"
+                  alt="Text Editor Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
+              <h3 class="projects__row-content-title">Text Editor</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                This application serves as a practical demonstration for progressive web applications (PWAs) and provides an in-depth understanding of React. It covers configuring webpack, asset caching, database setup, and event handling for installation, making it a valuable resource for future PWA development.
               </p>
               <a href="./views/project-2.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Link</a>
             </div>
           </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-                <!--image here-->
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
-              <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
-              </p>
-              <a href="./views/project-1.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Link</a>
             </div>
             </div>
           </div>
@@ -133,8 +131,7 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            If you want to get in contact, please fill out your information and I will get back to you as soon as possible! 
           </span>
         </h2>
         <div class="contact__form-container">
