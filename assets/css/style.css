@@ -11,6 +11,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+
 }
 
 @media only screen and (max-width: 75em) {
@@ -50,6 +51,9 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: 'Source Sans Pro', sans-serif;
+  scroll-snap-type: y mandatory;
+  block-size: 100%;
+
 }
 
 .default {
@@ -240,6 +244,14 @@ svg text {
   width: 92%;
 }
 
+section {
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  block-size: 100%;
+}
+
 .btn {
   background: #fff;
   color: #333;
@@ -358,8 +370,8 @@ svg text {
 .projects__row {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  grid-gap: 5rem;
-  margin-bottom: 11rem;
+  grid-gap: 1rem;
+  margin-bottom: 9rem;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -391,7 +403,7 @@ svg text {
 }
 
 .projects__row-content {
-  padding: 2rem 0;
+  padding: 1rem 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
