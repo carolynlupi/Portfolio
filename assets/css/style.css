@@ -301,8 +301,10 @@ section {
 
 /* about section */
 .about {
-  background: #ecf8ff;
-}
+    background: linear-gradient(to right, rgba(194, 193, 194, 0.8), rgb(247, 245, 247), rgba(179, 178, 178, 0.8)), url(../../assets/svg/common-bg.svg);
+    background-size: cover;
+    background-position: center;
+  }
 
 .about__content {
   display: grid;
@@ -943,9 +945,9 @@ section {
 /* skills section */
 .skills {
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   flex-wrap: wrap;
-  margin: 3rem;
+  margin: 1rem;
 }
 
 .container-icons {
@@ -965,8 +967,8 @@ section {
 .container-icons .devicon,
 .container-icons .fab,
 .container-icons .fas {
-  color: #0a0303;
-  font-size: 3.5rem;
+  color: #f8f8f8;
+  font-size: 5rem;
 }
 
 .container-icons .box-icon {
@@ -976,7 +978,7 @@ section {
 }
 
 .container-icons .box-icon p {
-  color: #656565;
+  color: #f7f7f7;
 }
 
 .container-icons .box-icon .fa-js,
@@ -1030,5 +1032,7 @@ section {
 }
 
 .skillSection {
-  background-color: #c7c1c1;
+  background: linear-gradient(to right, rgba(129, 78, 188, 0.8), rgba(194, 122, 232, 0.8), rgba(114, 51, 170, 0.8)), url(../../assets/svg/common-bg.svg);
+  background-size: cover;
+  background-position: center;
 }
