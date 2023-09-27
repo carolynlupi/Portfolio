@@ -1044,6 +1044,13 @@ section {
   height: 300rem;
 }
 
+.projectHtmlSection2 {
+  display: grid;
+  background-size: cover;
+  background-position: center;
+  height: 150rem;
+}
+
 .projectHtmlSub {
   display: flex;
   text-align: center;
