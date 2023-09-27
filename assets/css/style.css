@@ -7,15 +7,11 @@
   box-sizing: inherit;
   font-family: inherit;
 }
-
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-
-}
-
+/* html & body */
 html,
 body {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
   overflow-x: hidden;
   box-sizing: border-box;
   position: relative;
@@ -24,7 +20,6 @@ body {
   overflow-x: scroll;
   overflow-y: scroll;
   font-family: 'Source Sans Pro', sans-serif;
-  scroll-snap-type: y mandatory;
   block-size: 100%;
 }
 
@@ -33,6 +28,7 @@ body {
   background: radial-gradient(circle, rgba(75, 86, 33, 1) 5%, rgba(49, 66, 114, 1) 44%, rgba(33, 66, 41, 1) 84%);
 }
 
+/* media for html & body */
 @media only screen and (max-width: 75em) {
   html {
     font-size: 59%;
@@ -51,6 +47,7 @@ body {
   }
 }
 
+/* text */
 a {
   text-decoration: none;
   color: inherit;
@@ -59,7 +56,6 @@ a {
 textarea {
   resize: none;
 }
-
 
 /* main header */
 svg {
@@ -82,7 +78,6 @@ svg text {
   grid-template-columns: 10fr;
   grid-gap: 10rem;
   height: 850px;
-  /* Adjust the height to your desired value */
 }
 
 @keyframes stroke {
@@ -140,31 +135,16 @@ svg text {
 }
 
 /* header & footer */
-.heading-primary {
-  font-size: 6rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center;
-}
-
 @media only screen and (max-width: 37.5em) {
   .heading-primary {
     font-size: 4.5rem;
   }
 }
 
-.heading-sec__mb-bg {
-  margin-bottom: 11rem;
-}
-
 @media only screen and (max-width: 56.25em) {
   .heading-sec__mb-bg {
     margin-bottom: 8rem;
   }
-}
-
-.heading-sec__mb-med {
-  margin-bottom: 9rem;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -393,7 +373,7 @@ section {
 }
 
 .projects__row-img-cont {
-  overflow:hidden;
+  overflow: hidden;
   max-height: 20rem;
 }
 
@@ -500,12 +480,6 @@ section {
   background: #f0f0f0;
   border-radius: 5px;
   font-weight: 600;
-  /* Code for Modern Browsers */
-  /* Code for WebKit, Blink, Edge */
-  /* Code for Internet Explorer 10-11 */
-  /* Code for Microsoft Edge */
-  /* Code for Mozilla Firefox 4 to 18 */
-  /* Code for Mozilla Firefox 19+ */
 }
 
 .contact__form-input::placeholder {
@@ -663,26 +637,20 @@ section {
   color: #777;
 }
 
-/* Adjust the size and border-radius of project images */
 .projects__row-img {
   width: 550px;
-  /* Adjust the width as needed */
   height: auto;
   border-radius: 10px;
-  /* Add border-radius for rounded corners */
 }
 
-/* Display the project content as flex to have it in a row layout */
 .projects__row-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin-left: 10px;
-  /* Add some space between the image and text */
 }
 
-/* Style the project titles */
 .projects__row-content-title {
   font-size: 1.8rem;
   font-weight: bold;
@@ -980,32 +948,6 @@ section {
   margin: 3rem;
 }
 
-.skills__skill {
-  padding: 1rem 2rem;
-  margin-bottom: 1.5rem;
-  margin-right: 1.5rem;
-  font-size: 1.6rem;
-  border-radius: 50%; /* Make it round */
-  font-weight: 600;
-  color: #67136e;
-  opacity: 0; /* Initially, set opacity to 0 */
-  transform: translateY(20px); /* Move it down slightly */
-  transition: opacity 3.5s ease, transform 0.5s ease; /* Add transition */
-}
-
-.skills__skill.show {
-  opacity: 1; /* Show element */
-  transform: translateY(0); /* Reset position */
-}
-
-
-.html-img {
-  width: 600px;
-  height: auto;
-  margin: 10px;
-  padding: 10px;
-}
-
 .container-icons {
   text-align: center;
   margin-bottom: 3rem;
@@ -1014,10 +956,10 @@ section {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .container-icons .devicon,
@@ -1082,14 +1024,9 @@ section {
   justify-content: center;
   max-width: 700px;
 }
-/* Add this CSS to stack images vertically */
-.image-container {
-  margin-bottom: 20px; /* Adjust the margin as needed for spacing between images */
-}
 
-/* Add this CSS rule to exclude the footer from scrolling effect */
-.no-scroll {
-  scroll-snap-align: none; /* or any other desired value */
+.image-container {
+  margin-bottom: 20px;
 }
 
 .skillSection {
