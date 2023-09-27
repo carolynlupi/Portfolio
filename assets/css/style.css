@@ -216,9 +216,9 @@ svg text {
   color: #777;
   font-size: 2rem;
   font-weight: 500;
-  max-width: 80rem;
+  max-width: 70rem;
   margin: auto;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -392,7 +392,8 @@ section {
 }
 
 .projects__row-img-cont {
-  overflow: hidden;
+  overflow:hidden;
+  max-height: 20rem;
 }
 
 .projects__row-img {
@@ -451,13 +452,13 @@ section {
 .contact__form-container {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background: white;
-  padding: 3rem;
-  margin-top: 4rem;
+  padding: 1rem;
+  margin-top: 1rem;
   max-width: 70rem;
   text-align: right;
-  width: 95%;
+  width: 85%;
   border-radius: 5px;
-  margin: 5rem auto 0 auto;
+  margin: 3rem auto 0 auto;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -1075,4 +1076,9 @@ section {
 .projectPageImg {
   display: flex;
   justify-content: center;
+}
+
+/* Add this CSS rule to exclude the footer from scrolling effect */
+.no-scroll {
+  scroll-snap-align: none; /* or any other desired value */
 }
