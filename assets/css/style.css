@@ -989,3 +989,74 @@ svg text {
   margin: 10px;
   padding: 10px;
 }
+
+.container-icons {
+  text-align: center;
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-icons .devicon,
+.container-icons .fab,
+.container-icons .fas {
+  color: #0a0303;
+  font-size: 3.5rem;
+}
+
+.container-icons .box-icon {
+  width: 50%;
+  height: 142px;
+  margin-bottom: 10px;
+}
+
+.container-icons .box-icon p {
+  color: #656565;
+}
+
+.container-icons .box-icon .fa-js,
+.container-icons .box-icon .fa-cogs,
+.container-icons .box-icon .fa-terminal,
+.container-icons .box-icon .fa-adobe,
+.container-icons .box-icon .i-firebase {
+  height: 72px;
+}
+
+.container-icons .box-icon .i-firebase {
+  width: 58px;
+}
+
+.container-icons .box-icon .i-responsive {
+  width: 70px;
+}
+
+.container-icons .box-icon .i-w3c {
+  width: 91px;
+  min-width: 91px;
+}
+
+@media (min-width: 600px) {
+  .container-icons .box-icon {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-icons .box-icon {
+    width: 12.5%;
+  }
+}
+
+.container-icons .container-img-i {
+  display: block;
+  width: 50%;
+  height: 3.5rem;
+  margin: 0 auto;
+}
