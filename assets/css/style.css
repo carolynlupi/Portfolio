@@ -14,6 +14,25 @@ html {
 
 }
 
+html,
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  position: relative;
+  line-height: 1.5;
+  font-family: sans-serif;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  font-family: 'Source Sans Pro', sans-serif;
+  scroll-snap-type: y mandatory;
+  block-size: 100%;
+}
+
+.default {
+  background: rgb(75, 86, 33);
+  background: radial-gradient(circle, rgba(75, 86, 33, 1) 5%, rgba(49, 66, 114, 1) 44%, rgba(33, 66, 41, 1) 84%);
+}
+
 @media only screen and (max-width: 75em) {
   html {
     font-size: 59%;
@@ -41,24 +60,6 @@ textarea {
   resize: none;
 }
 
-html,
-body {
-  overflow-x: hidden;
-  box-sizing: border-box;
-  position: relative;
-  line-height: 1.5;
-  font-family: sans-serif;
-  overflow-x: scroll;
-  overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif;
-  scroll-snap-type: y mandatory;
-  block-size: 100%;
-}
-
-.default {
-  background: rgb(75, 86, 33);
-  background: radial-gradient(circle, rgba(75, 86, 33, 1) 5%, rgba(49, 66, 114, 1) 44%, rgba(33, 66, 41, 1) 84%);
-}
 
 /* main header */
 svg {
@@ -1077,11 +1078,20 @@ section {
 }
 
 .projectPageImg {
-  display: flex;
+  display: inline-block;
   justify-content: center;
+  max-width: 700px;
+}
+/* Add this CSS to stack images vertically */
+.image-container {
+  margin-bottom: 20px; /* Adjust the margin as needed for spacing between images */
 }
 
 /* Add this CSS rule to exclude the footer from scrolling effect */
 .no-scroll {
   scroll-snap-align: none; /* or any other desired value */
+}
+
+.skillSection {
+  background-color: #c7c1c1;
 }
