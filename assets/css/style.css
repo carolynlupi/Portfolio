@@ -967,7 +967,7 @@ section {
 .container-icons .devicon,
 .container-icons .fab,
 .container-icons .fas {
-  color: #f8f8f8;
+  color: #000000;
   font-size: 5rem;
 }
 
@@ -978,7 +978,7 @@ section {
 }
 
 .container-icons .box-icon p {
-  color: #f7f7f7;
+  color: #050505;
 }
 
 .container-icons .box-icon .fa-js,
@@ -1061,3 +1061,4 @@ section {
   margin: 10px;
   line-height: 1.4;
 }
+
